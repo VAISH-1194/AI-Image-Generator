@@ -2,7 +2,7 @@ const generateForm = document.querySelector(".generate-form");
 const generateBtn = generateForm.querySelector(".generate-btn");
 const imageGallery = document.querySelector(".image-gallery");
 
-const OPENAI_API_KEY = "https://limewire.com/u/subscriptions/api?tier=API_FREE"; // Your OpenAI API key here
+const OPENAI_API_KEY = "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"; // Your OpenAI API key here
 let isImageGenerating = false;
 
 const updateImageCard = (imgDataArray) => {
